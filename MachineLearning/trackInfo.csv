@@ -1,0 +1,144 @@
+,name,artist,genre
+0,"Cello Suite No. 1 in G Major, BWV 1007: I. Prélude",Johann Sebastian Bach,['baroque' 'classical' 'early music' 'german baroque']
+1,"Fantasy-Impromptu in C-Sharp Minor, Op. 66",Frédéric Chopin,['classical' 'early romantic era' 'polish classical']
+2,Nocturne en mi bémol majeur opus 9 n°2: Ballade en Sol Mineur No.1,Frédéric Chopin,['classical' 'early romantic era' 'polish classical']
+3,"Sonata No. 11 in A Major for Piano, K. 331, ""Turkish March"": III. Rondo alla Turca: Allegretto",Wolfgang Amadeus Mozart,['classical' 'classical era']
+4,"Turkish March, Op.113 No.4",Ludwig van Beethoven,['classical' 'classical era' 'early romantic era' 'german romanticism']
+5,Suite bergamasque: Suite bergamasque: III. Clair de lune. Andante très expressif,Claude Debussy,['classical' 'impressionism' 'post-romantic era']
+6,"The Well-Tempered Clavier: Book 1, BWV 846-869: 1. Prelude in C Major, BWV 846",Johann Sebastian Bach,['baroque' 'classical' 'early music' 'german baroque']
+7,"Suite bergamasque, L. 75: 3. Clair de lune",Claude Debussy,['classical' 'impressionism' 'post-romantic era']
+8,"Symphony No. 40 in G Minor, K. 550: I. Molto allegro",Wolfgang Amadeus Mozart,['classical' 'classical era']
+9,"Chopin: Nocturne No. 20 in C-Sharp Minor, Op. Posth.",Frédéric Chopin,['classical' 'early romantic era' 'polish classical']
+10,"Symphony No. 5 in C Minor, Op. 67: I. Allegro con brio",Ludwig van Beethoven,['classical' 'classical era' 'early romantic era' 'german romanticism']
+11,"The Carnival of the Animals, R. 125: XIII. The Swan (Arr. for Cello and Piano)",Camille Saint-Saëns,['classical' 'french romanticism' 'late romantic era']
+12,"Piano Concerto in A Minor, Op. 16: I. Allegro molto moderato",Edvard Grieg,['classical' 'late romantic era' 'norwegian classical']
+13,"Piano Sonata No. 14 in C-Sharp Minor, Op. 27 No. 2 ""Moonlight"": I. Adagio sostenuto",Ludwig van Beethoven,['classical' 'classical era' 'early romantic era' 'german romanticism']
+14,"Nocturne No.2 In E Flat, Op.9 No.2",Frédéric Chopin,['classical' 'early romantic era' 'polish classical']
+15,"Waltz in C-sharp minor, Op. 64 No. 2",Frédéric Chopin,['classical' 'early romantic era' 'polish classical']
+16,"Bagatelle No. 25 in A Minor, ""Für Elise"", WoO 59",Ludwig van Beethoven,['classical' 'classical era' 'early romantic era' 'german romanticism']
+17,"Piano Concerto No. 21 in C Major, K. 467 ""Elvira Madigan"": II. Andante",Wolfgang Amadeus Mozart,['classical' 'classical era']
+18,"Fantasia in D Minor, K.397",Wolfgang Amadeus Mozart,['classical' 'classical era']
+19,"Piano Sonata No. 16 in C Major, K. 545 ""Sonata facile"": 1. Allegro",Wolfgang Amadeus Mozart,['classical' 'classical era']
+20,"Serenade No. 13 in G Major, K. 525 ""Eine kleine Nachtmusik"": I. Allegro",Wolfgang Amadeus Mozart,['classical' 'classical era']
+21,"Tchaikovsky: Swan Lake, Op. 20, Act 2: No. 10, Scène (Moderato)",Pyotr Ilyich Tchaikovsky,['classical' 'late romantic era' 'russian romanticism']
+22,"Tchaikovsky: The Nutcracker, Op. 71, Act 2: No. 13 Waltz of the Flowers",Pyotr Ilyich Tchaikovsky,['classical' 'late romantic era' 'russian romanticism']
+23,"El Lago De Los Cisnes - Op. 20, Acto II: 10. Scene (Moderato)",Pyotr Ilyich Tchaikovsky,['classical' 'late romantic era' 'russian romanticism']
+24,Miroirs: III. Une barque sur l'océan,Maurice Ravel,"['classical' 'early modern classical' 'impressionism' 'neoclassicism'
+ 'post-romantic era']"
+25,Take on Me,a-ha,"['new romantic' 'new wave' 'new wave pop' 'permanent wave' 'soft rock'
+ 'synthpop']"
+26,Sweet Dreams (Are Made of This) - Remastered,Eurythmics,"['dance rock' 'europop' 'mellow gold' 'new romantic' 'new wave'
+ 'new wave pop' 'pop rock' 'rock' 'soft rock' 'sophisti-pop' 'synthpop']"
+27,Africa,TOTO,['album rock' 'classic rock' 'mellow gold' 'rock' 'soft rock' 'yacht rock']
+28,Don't Stop Believin',Journey,['album rock' 'classic rock' 'hard rock' 'mellow gold' 'rock' 'soft rock']
+29,Everybody Wants To Rule The World,Tears For Fears,"['new romantic' 'new wave' 'new wave pop' 'permanent wave' 'rock'
+ 'soft rock' 'sophisti-pop' 'synthpop']"
+30,"Footloose - From ""Footloose"" Soundtrack",Kenny Loggins,"['album rock' 'classic rock' 'mellow gold' 'new wave pop' 'rock'
+ 'soft rock' 'yacht rock']"
+31,Summer Of '69,Bryan Adams,"['canadian pop' 'canadian singer-songwriter' 'classic canadian rock'
+ 'heartland rock' 'mellow gold' 'rock' 'soft rock']"
+32,I Wanna Dance with Somebody (Who Loves Me),Whitney Houston,['dance pop' 'pop' 'urban contemporary']
+33,Under Pressure,Queen,['classic rock' 'glam rock' 'rock']
+34,Girls Just Want to Have Fun,Cyndi Lauper,"['dance pop' 'mellow gold' 'new wave pop' 'permanent wave' 'pop rock'
+ 'soft rock']"
+35,You Make My Dreams (Come True),Daryl Hall & John Oates,['album rock' 'classic rock' 'mellow gold' 'rock' 'soft rock' 'yacht rock']
+36,Beat It,Michael Jackson,['pop' 'r&b' 'soul']
+37,Never Gonna Give You Up,Rick Astley,['europop' 'new romantic' 'new wave pop' 'soft rock' 'sophisti-pop']
+38,Funky Town,Lipps Inc.,['disco' 'minneapolis sound']
+39,GO!,Common,"['alternative hip hop' 'chicago rap' 'conscious hip hop' 'gangster rap'
+ 'hardcore hip hop' 'hip hop' 'neo soul' 'political hip hop' 'rap']"
+40,Wake Me Up Before You Go-Go,Wham!,['europop' 'new romantic' 'new wave pop']
+41,Jump - 2015 Remaster,Van Halen,['album rock' 'classic rock' 'hard rock' 'metal' 'rock']
+42,You Can't Hurry Love,Phil Collins,['mellow gold' 'rock drums' 'soft rock']
+43,Eye of the Tiger,Survivor,['album rock' 'hard rock' 'rock' 'soft rock']
+44,Hungry Like the Wolf - 2009 Remaster,Duran Duran,['dance rock' 'new romantic' 'new wave' 'new wave pop' 'rock' 'synthpop']
+45,Uptown Girl,Billy Joel,"['classic rock' 'folk rock' 'mellow gold' 'piano rock' 'rock'
+ 'singer-songwriter' 'soft rock']"
+46,Walking On Sunshine,Katrina & The Waves,['new wave pop']
+47,What's Love Got to Do with It,Tina Turner,['disco' 'new wave pop' 'soft rock']
+48,Faith - Remastered,George Michael,['soft rock']
+49,Kids In America,Kim Wilde,['europop' 'new romantic' 'new wave' 'new wave pop' 'soft rock']
+50,True - Single Edit,Spandau Ballet,"['europop' 'mellow gold' 'new romantic' 'new wave' 'new wave pop'
+ 'soft rock' 'sophisti-pop' 'synthpop']"
+51,Beautiful,Snoop Dogg,['g funk' 'gangster rap' 'hip hop' 'pop rap' 'rap' 'west coast rap']
+52,Oh Boy,Cam’ron,"['battle rap' 'east coast hip hop' 'gangster rap' 'hardcore hip hop'
+ 'harlem hip hop' 'hip hop' 'hip pop' 'pop rap' 'rap' 'southern hip hop'
+ 'trap']"
+53,It Wasn't Me,Shaggy,['dance pop' 'reggae fusion']
+54,In Da Club,50 Cent,"['east coast hip hop' 'gangster rap' 'hip hop' 'pop rap' 'queens hip hop'
+ 'rap']"
+55,Party Up,DMX,"['east coast hip hop' 'gangster rap' 'hardcore hip hop' 'hip hop'
+ 'pop rap' 'rap']"
+56,Hey Ma,Cam’ron,"['battle rap' 'east coast hip hop' 'gangster rap' 'hardcore hip hop'
+ 'harlem hip hop' 'hip hop' 'hip pop' 'pop rap' 'rap' 'southern hip hop'
+ 'trap']"
+57,Drop It Like It's Hot,Snoop Dogg,['g funk' 'gangster rap' 'hip hop' 'pop rap' 'rap' 'west coast rap']
+58,Wanna Get To Know You,G-Unit,"['gangster rap' 'hardcore hip hop' 'hip hop' 'pop rap' 'queens hip hop'
+ 'rap' 'southern hip hop' 'trap']"
+59,Bunny Hop - Remix / Street,Da Entourage,['bounce']
+60,Ride Wit Me,Nelly,"['dance pop' 'hip hop' 'pop rap' 'rap' 'southern hip hop' 'st louis rap'
+ 'urban contemporary']"
+61,Lean Back,Terror Squad,['bronx hip hop' 'hardcore hip hop']
+62,P.I.M.P.,50 Cent,"['east coast hip hop' 'gangster rap' 'hip hop' 'pop rap' 'queens hip hop'
+ 'rap']"
+63,Family Affair,Mary J. Blige,['dance pop' 'hip pop' 'neo soul' 'r&b' 'urban contemporary']
+64,How We Do,The Game,['gangster rap' 'hip hop' 'pop rap' 'rap' 'southern hip hop' 'trap']
+65,Stand Up,Ludacris,"['atl hip hop' 'dirty south rap' 'hip hop' 'pop rap' 'rap'
+ 'southern hip hop' 'trap']"
+66,Right Thurr,Chingy,"['crunk' 'dance pop' 'dirty south rap' 'gangster rap' 'hip hop' 'hip pop'
+ 'pop rap' 'rap' 'southern hip hop' 'urban contemporary']"
+67,Where The Hood At,DMX,"['east coast hip hop' 'gangster rap' 'hardcore hip hop' 'hip hop'
+ 'pop rap' 'rap']"
+68,My Band,D12,['detroit hip hop' 'gangster rap' 'hip hop' 'pop rap' 'rap']
+69,Put On,Jeezy,"['atl hip hop' 'crunk' 'dirty south rap' 'gangster rap' 'hip hop'
+ 'pop rap' 'rap' 'southern hip hop' 'trap']"
+70,So Seductive,Tony Yayo,['hip hop' 'queens hip hop']
+71,Slow Motion,JUVENILE,"['bounce' 'crunk' 'dirty south rap' 'gangster rap' 'hip hop'
+ 'new orleans rap' 'pop rap' 'rap' 'southern hip hop' 'trap']"
+72,What's Your Fantasy,Ludacris,"['atl hip hop' 'dirty south rap' 'hip hop' 'pop rap' 'rap'
+ 'southern hip hop' 'trap']"
+73,Soul Survivor,Jeezy,"['atl hip hop' 'crunk' 'dirty south rap' 'gangster rap' 'hip hop'
+ 'pop rap' 'rap' 'southern hip hop' 'trap']"
+74,Put 'Em In Their Place,Mobb Deep,"['east coast hip hop' 'gangster rap' 'hardcore hip hop' 'hip hop'
+ 'queens hip hop' 'rap']"
+75,Master of Puppets (Remastered),Metallica,['hard rock' 'metal' 'old school thrash' 'rock' 'thrash metal']
+76,Holy Wars...The Punishment Due - Remastered 2004,Megadeth,"['album rock' 'alternative metal' 'hard rock' 'melodic thrash' 'metal'
+ 'old school thrash' 'rock' 'speed metal' 'thrash metal']"
+77,Madhouse,Anthrax,"['album rock' 'alternative metal' 'hard rock' 'metal' 'nu metal'
+ 'old school thrash' 'rap metal' 'rock' 'speed metal' 'thrash metal']"
+78,Raining Blood,Slayer,"['alternative metal' 'death metal' 'hard rock' 'metal' 'nu metal'
+ 'old school thrash' 'rock' 'speed metal' 'thrash metal']"
+79,The Trooper - 2015 Remaster,Iron Maiden,['album rock' 'hard rock' 'metal' 'nwobhm' 'rock']
+80,Cowboys from Hell,Pantera,"['alternative metal' 'groove metal' 'hard rock' 'metal' 'nu metal'
+ 'old school thrash' 'rock' 'texas metal' 'wrestling']"
+81,Paranoid - 2012 - Remaster,Black Sabbath,"['album rock' 'birmingham metal' 'classic rock' 'hard rock' 'metal' 'rock'
+ 'stoner rock' 'uk doom metal']"
+82,Laid to Rest,Lamb of God,"['alternative metal' 'groove metal' 'melodic metalcore' 'metal' 'nu metal'
+ 'virginia metal']"
+83,Slaughter Of The Soul,At The Gates,"['death metal' 'gothenburg metal' 'melodic death metal' 'metal'
+ 'swedish death metal' 'swedish metal' 'technical death metal']"
+84,Battery (Remastered),Metallica,['hard rock' 'metal' 'old school thrash' 'rock' 'thrash metal']
+85,Iron Tusk,Mastodon,"['alternative metal' 'atlanta metal' 'hard rock' 'metal' 'nu metal'
+ 'progressive groove metal' 'progressive sludge' 'rock' 'sludge metal'
+ 'stoner metal']"
+86,Symphony Of Destruction,Megadeth,"['album rock' 'alternative metal' 'hard rock' 'melodic thrash' 'metal'
+ 'old school thrash' 'rock' 'speed metal' 'thrash metal']"
+87,Holy Diver,Dio,"['album rock' 'classic rock' 'glam metal' 'hard rock' 'metal'
+ 'power metal' 'rock']"
+88,Wicked World - 2013 Remaster,Black Sabbath,"['album rock' 'birmingham metal' 'classic rock' 'hard rock' 'metal' 'rock'
+ 'stoner rock' 'uk doom metal']"
+89,Toxicity,System Of A Down,['alternative metal' 'nu metal' 'rap metal']
+90,Bloodlines,Metalocalypse: Dethklok,['comic' 'comic metal']
+91,Spoonman,Soundgarden,"['alternative metal' 'alternative rock' 'blues rock' 'grunge' 'hard rock'
+ 'modern rock' 'nu metal' 'rock']"
+92,Thunderhorse,Metalocalypse: Dethklok,['comic' 'comic metal']
+93,Killing In The Name,Rage Against The Machine,"['alternative metal' 'alternative rock' 'conscious hip hop' 'funk metal'
+ 'nu metal' 'political hip hop' 'rap metal' 'rap rock' 'rock']"
+94,War Ensemble,Slayer,"['alternative metal' 'death metal' 'hard rock' 'metal' 'nu metal'
+ 'old school thrash' 'rock' 'speed metal' 'thrash metal']"
+95,Bat Country,Avenged Sevenfold,['alternative metal' 'nu metal']
+96,The Metal,Tenacious D,['alternative metal' 'comedy rock' 'comic' 'comic metal' 'parody' 'rock']
+97,Ace of Spades,Motörhead,['album rock' 'alternative metal' 'hard rock' 'metal' 'rock' 'speed metal']
+98,For Whom The Bell Tolls (Remastered),Metallica,['hard rock' 'metal' 'old school thrash' 'rock' 'thrash metal']
+99,Peace Sells - Remastered,Megadeth,"['album rock' 'alternative metal' 'hard rock' 'melodic thrash' 'metal'
+ 'old school thrash' 'rock' 'speed metal' 'thrash metal']"

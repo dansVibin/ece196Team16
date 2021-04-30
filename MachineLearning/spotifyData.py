@@ -1,5 +1,7 @@
 import spotipy as sp
+import pandas as pd
 import numpy as np
+
 from spotipy.oauth2 import SpotifyClientCredentials
 from pprint import pprint
 
@@ -11,25 +13,30 @@ playlistLink = 'https://open.spotify.com/playlist/7uzmW6AP48YD006g3YGVEo?si=0260
 apiLink = sp.Spotify(client_credentials_manager=SpotifyClientCredentials(client_id = SPOTIPY_CLIENT_ID,client_secret = SPOTIPY_CLIENT_SECRET))
 
 playlistInfo = apiLink.playlist(playlistLink)
+trackInfo = playlistInfo['tracks']
 
-tracks = playlistInfo['tracks']
+totalTracks = trackInfo['total']
 
-totalTracks = tracks['total']
+trackName = []
+trackArtist = []
+genreTags = []
 
+audioFeatures = []
+audioAnalysis = []
 
-trackName = ['']*totalTracks
-trackArtist = ['']*totalTracks
+pitchValue = []
+
 for i in range(0,totalTracks):
-    trackName[i] = tracks['items'][i]['track']['name']
-    trackArtist[i] = tracks['items'][i]['track']['artists'][0]['name']
-    #print(trackName[i] + "  " + trackArtist[i])
-   #print('track ' + str(i+1) +  ' : ' + tracks['items'][i]['track']['name'] + ' ARTIST: ' + tracks['items'][i]['track']['artists'][0]['name'])
+    trackName.append(trackInfo['items'][i]['track']['name'])
+    trackArtist.append(trackInfo['items'][i]['track']['artists'][0]['name'])
+    genreTags.append(np.array(apiLink.artist(trackInfo['items'][i]['track']['artists'][0]['uri'])['genres']))
 
-trackInfo = np.concatenate((trackName, trackArtist))
-pprint(trackName)
-
-x = 'hello world'
-print(x)
+    audioFeatures.append(apiLink.audio_features(trackInfo['items'][i]['track']['uri']))
 
 
+trackMetaDict = {'name':trackName,'artist':trackArtist, 'genre': genreTags}
+trackMetaDF = pd.DataFrame(trackMetaDict)
+audioFeaturesDF = pd.DataFrame(audioFeatures)
 
+trackMetaDF.to_csv(r'C:\Users\enigm\Documents\School\FourthYear\Spring21\ECE196\machineLearning\trackInfo2.csv')
+audioFeaturesDF.to_csv(r'C:\Users\enigm\Documents\School\FourthYear\Spring21\ECE196\machineLearning\audioFeatures2.csv')
