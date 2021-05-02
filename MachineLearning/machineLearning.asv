@@ -41,24 +41,24 @@ for i = 1:height(audioFeatures)
 end
 %% Plotting
 for i = 1:width(audioFeaturesData)
-    figure(i)
+    %figure(i)
         for j = 1:numGenres
             genreSection = [(songsPerGenre*j-songsPerGenre+1):songsPerGenre*j];
             songMean(j) = mean(genreSection);
             average(j) = mean(audioFeaturesDataNew(genreSection,i));
-            scatter(songs(genreSection),audioFeaturesDataNew(genreSection,i),50,'filled')
-            hold on 
+            %scatter(songs(genreSection),audioFeaturesDataNew(genreSection,i),50,'filled')
+            %hold on 
             audioFeat4{i}(:,j) = audioFeaturesDataNew(genreSection,i);
         end
-    plot(songMean,average,'--k.','Linewidth',2','Markersize',34)
-    hold on
-    grid on
-    xlabel('Song Genres')
-    title('Audio Feature by Genre')
-    ylabel(audioFeaturesLabels{i})
-    if (i ==2 || i ==4) location = 'Southeast';
-    else location = 'Northeast';end
-    legend(["Classical" , "80s" , "Hip Hop" , "Metal" , "Average"],'Location',location)
+%     plot(songMean,average,'--k.','Linewidth',2','Markersize',34)
+%     hold on
+%     grid on
+%     xlabel('Song Genres')
+%     title('Audio Feature by Genre')
+%     ylabel(audioFeaturesLabels{i})
+%     if (i ==2 || i ==4) location = 'Southeast';
+%     else location = 'Northeast';end
+%     legend(["Classical" , "80s" , "Hip Hop" , "Metal" , "Average"],'Location',location)
 end
 
 Dancibility = reshape(audioFeat4{1},[numSongs,1]);
@@ -77,15 +77,15 @@ Duration = reshape(audioFeat4{12},[numSongs,1]);
 musicDataSet = table(Dancibility,Energy,Valence,Acousticness,Instrumentalness,Genre);
 musicDataSet2 = table(Dancibility,Energy,Valence,Acousticness,Speechiness,Instrumentalness,Genre);
 
-for i = 1:width(audioFeaturesData)
-    figure(width(audioFeaturesData)+i)
-    boxplot(audioFeat4{i},genreList)
-    title('Audio Feature by Genre')
-    hold on
-    grid on
-    xlabel('Song Genres')
-    ylabel(audioFeaturesLabels{i})
-end
+% for i = 1:width(audioFeaturesData)
+%     figure(width(audioFeaturesData)+i)
+%     boxplot(audioFeat4{i},genreList)
+%     title('Audio Feature by Genre')
+%     hold on
+%     grid on
+%     xlabel('Song Genres')
+%     ylabel(audioFeaturesLabels{i})
+% end
 %% Importing TEST Data
 audioFeaturesTEST = readtable('audioFeaturesNICK.csv');
 trackInfoTEST = readtable('trackInfoNICK.csv');
@@ -108,8 +108,8 @@ audioFeaturesDataTESTNew = zeros(height(audioFeaturesTEST),width(audioFeaturesDa
 for i = 1:height(audioFeaturesTEST)
     for j = 1 : width(audioFeaturesDataTEST)
         audioFeaturesDataTESTNew(i,j) = str2num(cell2mat(table2array(audioFeaturesDataTEST(i,j))));
-        if (i ==1) audioFeaturesLabels{j}(1) = upper(audioFeaturesLabels{j}(1)); 
-        end
+        %if (i ==1) audioFeaturesLabels{j}(1) = upper(audioFeaturesLabels{j}(1)); 
+        %end
     end
     for k=1:numGenres
         if (contains(genreTagsTEST{i},lower(genreList(k)))) == 1
@@ -118,24 +118,24 @@ for i = 1:height(audioFeaturesTEST)
 end
 %% Plotting
 for i = 1:width(audioFeaturesDataTEST)
-    figure(i+24)
+    %figure(i+24)
         for j = 1:numGenres
             genreSection = [(songsPerGenreTEST*j-songsPerGenreTEST+1):songsPerGenreTEST*j];
             songMeanTEST(j) = mean(genreSection);
             averageTEST(j) = mean(audioFeaturesDataTESTNew(genreSection,i));
-            scatter(songsTEST(genreSection),audioFeaturesDataTESTNew(genreSection,i),50,'filled')
-            hold on 
+            %scatter(songsTEST(genreSection),audioFeaturesDataTESTNew(genreSection,i),50,'filled')
+            %hold on 
             audioFeat4TEST{i}(:,j) = audioFeaturesDataTESTNew(genreSection,i);
         end
-    plot(songMeanTEST,averageTEST,'--k.','Linewidth',1','Markersize',17)
-    hold on
-    grid on
-    xlabel('Song Genres')
-    title('Audio Feature by Genre')
-    ylabel(audioFeaturesLabels{i})
-    if (i ==2 || i ==4) location = 'Southeast';
-    else location = 'Northeast';end
-    legend(["Classical" , "80s" , "Hip Hop" , "Metal" , "Average"],'Location',location)
+%     plot(songMeanTEST,averageTEST,'--k.','Linewidth',1','Markersize',17)
+%     hold on
+%     grid on
+%     xlabel('Song Genres')
+%     title('Audio Feature by Genre')
+%     ylabel(audioFeaturesLabels{i})
+%     if (i ==2 || i ==4) location = 'Southeast';
+%     else location = 'Northeast';end
+%     legend(["Classical" , "80s" , "Hip Hop" , "Metal" , "Average"],'Location',location)
 end
 
 DancibilityTEST = reshape(audioFeat4TEST{1},[numSongsTEST,1]);
@@ -170,7 +170,7 @@ Accuracy = 100 * (sum(Predicted == GenreTEST)/length(Predicted));
 Accuracy2 = 100 * (sum(Predicted2 == GenreTEST)/length(Predicted));
 
 Results = table(Predicted,GenreTEST) 
-disp("Model 1 Accuracy ("+ string(nieghbors2) + " neighbors) = " + string(Accuracy) + "%")
-disp("Model 2 Accuracy ("+ string(nieghbors2) + " neighbors) = " + string(Accuracy2) + "%")
+disp("Model 1 Accuracy ("+ stri4 neighbors) = " + string(Accuracy) + "%")
+disp("Model 2 Accuracy (3 neighbors) = " + string(Accuracy2) + "%")
 
 
